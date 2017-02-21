@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+/* Menu */
+
+/* body */
+a:hover{
+    color: #ff4d4d;
+}
+.clickhere{
+    margin-top:31%;
+    margin-left:12%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    background-size: cover;
+        
+}
+.home-bg{
+    background: url('images/homelogo.jpg') no-repeat left center;
+    background-size: cover;
+    min-height:100%;
+}
+
+body{
+    
+}
+.nav{
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("images/header2.jpg");
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.colmid{
+    width: 100%;
+}
+.work{
+    background-color: #333;
+    width:98%;
+    margin:0.3% 0%;
+    padding: 1%;
+}
+.work2{
+    background-color: #333;
+    width:98%;
+    margin:0.3% 0%;
+    padding: 1%;
+    color:white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*text*/
+
+/*images*/
+#one,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 4%;
+
+}
+
+#two{
+   width:30%;
+   margin-right: 5%;
+   margin-left: 4%;
+   
+}
