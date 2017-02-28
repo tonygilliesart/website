@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tony Gillies | Contact</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+                $(".fancybox").fancybox();
+        });
+    </script>
+
+  </head>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+              <h6 style="text-align:center; margin-top:0.7%;"><img src="images/gilliesheader.jpg" alt="Kia Kaha" id="headerimg"></h6>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+                <div class="masthead">
+                    <div class="navbar">
+                        <div class="navbar-inner">                    
+                            <ul class="nav">
+                                <li><a href="index.html"><h2>HOME</h2></a></li>
+                                <li><a href="about.html"><h2>ABOUT</h2></a></li>
+                                <li><a href="first50.html"><h2>FIRST 50</h2></a></li>
+                                <li><a href="koruseries.html"><h2>KORU COLLECTION</h2></a></li>
+                                <li class="active"><a href="contact.html"><h2>CONTACT</h2></a></li>
+                            </ul>                    
+                        </div><!-- /.navbar-inner -->
+                    </div><!-- /.navbar -->
+                </div><!-- /.masthead -->
+          </div>
+        </div>
+      </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>First Fifty</h1>
+                    <br>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-offset-3">
+                    <div class="form-group">
+                        <h4>If you would like to ask me about any details of the artworks and other products we share here including price, availability and sizings. Please feel free to send me a message. I will try to get back to you as soon as possible. </h4>
+                        <h4>Feedback and questions are also welcomed. Just leave your name and email address in the fields below.</h4>
+                        <br>
+                        <form action="https://formspree.io/tonygilliesart@outlook.com" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name='name'>
+                            <label for="email">Email:</label>
+                            <input type="text" class="form-control" id="email" name="_replyto">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+                            <br>
+                            <input class="btn btn-default" type="submit" value="Send">
+                        </form>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
