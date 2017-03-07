@@ -22,6 +22,22 @@
     }
 }
 
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: yellow;
+}
+
 /*navigation*/
 .navbar .nav li {
     display: table-cell;
@@ -151,6 +167,16 @@ p{
 /*images*/
 #headerimg{
     width: 100%;
+}
+#gtfooter{
+    margin-top: 5px;
+    float: left;
+    width: 200px;
+}
+#tonyfooter{
+    margin-top: 5px;
+    float: right;
+    width: 250px;
 }
 
 #one,
