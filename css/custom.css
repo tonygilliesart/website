@@ -24,18 +24,22 @@
 
 a:link {
     color: yellow;
+    text-decoration: none;
 }
 
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
     color: yellow;
+    text-decoration: none;
 }
 
 a:active {
     color: white;
+    text-decoration: none;
 }
 
 /*navigation*/
@@ -227,4 +231,8 @@ p{
     width:15%;
     margin: 0 0.5%;
 
+}
+
+#weta{
+    width:100%;
 }
