@@ -11,6 +11,9 @@
         margin-right:0%;
         text-align: center;
     }
+    p.buynow {
+        margin-left: 32%;        
+    }
     h2 {
         font-size:12px;
     }
@@ -143,9 +146,8 @@ h5{
     font-family: 'Roboto', sans-serif; 
     color:white;
     font-size: 24px;
-    margin-left: 2%;
-    margin-right: 20%;
-    margin-top: 1%;
+    margin-top: 7%;
+    margin-left: 3%;
 }
 h6 {
     text-align: right;
@@ -158,6 +160,10 @@ p{
     font-size: 18px;
     margin-right:20%;
 }
+p.buynow {
+        text-align: left;     
+    }
+
 @media screen and (max-width:767px) {
     p {
         margin-right:0%;
@@ -170,6 +176,17 @@ p{
 /*images*/
 #headerimg{
     width: 100%;
+}
+#cards{
+    width:70%;
+    margin: 0 auto;
+}
+#buynow{
+    
+}
+#buynowsmall{
+    margin-left: 24%;
+    width:80%;
 }
 #gtfooter{
     margin-top: 5px;
